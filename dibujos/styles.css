@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Sans-Serif;
+}
+.encabezado {
+  width: 100%;
+  height: 200px;
+  background-image: url('../imagenes/manner.png');
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.gradiente {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#0000, #000);
+}
+h1 {
+  color: #fff;
+  margin: 0;
+  text-align: left;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+p {
+  margin: 0;
+}
+.info {
+  margin: 0;
+  padding-top: 90px;
+  padding-left: 10px;
+  color: #fff;
+  text-align: right;
+}
+.contenido {
+  margin: 20px;
+  margin-top: 0;
+  padding-top: 0px;
+  padding: 20px;
+  box-shadow: 0 0 35px #000;
+  font-size: 15px;
+}
+span {
+  text-decoration: line-through;
+}
+img{
+  width: 90%;
+}
