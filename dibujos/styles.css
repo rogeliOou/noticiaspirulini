@@ -5,7 +5,7 @@ body {
 .encabezado {
   width: 100%;
   height: 200px;
-  background-image: url('../imagenes/manner.png');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfUf7nkDiFjHeOGiocqZbfqZhMF6aDcdPPZOKebqKn2g&s');
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
