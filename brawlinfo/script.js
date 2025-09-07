@@ -5,7 +5,7 @@ document.getElementById('buscarBtn').addEventListener('click', async () => {
   resDiv.innerHTML = '<p>Buscando...</p>';
 
   try {
-    const response = await fetch(`/api/player/${tag}`);
+    const response = await fetch(`/api/player?tag=${tag}`);
     if (!response.ok) {
       const text = await response.text();
       throw new Error(text || 'Error al obtener datos');
