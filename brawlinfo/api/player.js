@@ -1,0 +1,1 @@
+%23${tag}`, {       headers: { Authorization: `Bearer ${process.env.BS_API_KEY}` }     });      if (!resp.ok) {       const text = await resp.text();       return res.status(resp.status).send(text);     }      const data = await resp.json();     res.status(200).json(data);   } catch (err) {     res.status(500).json({ error: err.message });   } }
